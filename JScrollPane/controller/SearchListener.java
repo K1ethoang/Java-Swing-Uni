@@ -1,4 +1,4 @@
-package JTextArea.controller;
+package JScrollPane.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -10,9 +10,6 @@ public class SearchListener implements ActionListener {
 
     public SearchListener(SearchView searchView) {
         this.searchView = searchView;
-    }
-
-    public SearchListener(JScrollPane.view.SearchView searchView2) {
     }
 
     @Override
